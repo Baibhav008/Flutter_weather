@@ -1,6 +1,23 @@
-# mausam
+# Flutter weather application
 
-A new Flutter project.
+Uses device location to detect city and provide weather info like temp, condition, humidity, wind speed.
+Includes search bar functionality to enable city search
+
+Libraries used :
+  geocoding: ^3.0.0 , to get address fron latitude and longitude
+  geolocator: ^12.0.0, to fetch current latitude and longitude
+  google_fonts: ^4.0.4 , to provide attractive fonts 
+  flutter_spinkit: ^5.2.1, for adding custom spinner in loading screen
+  http: ^1.2.1, to send request and fetch data from API
+
+API : OpenWeather API
+
+Screenshots : 
+
+![image](https://github.com/Baibhav008/Flutter_weather/assets/119806719/3deac3a2-5a06-4c14-b08a-d3e7daf23a4c)
+![image](https://github.com/Baibhav008/Flutter_weather/assets/119806719/35c5d064-cf95-40ab-a495-b9d6c57fc111)
+
+
 
 ## Getting Started
 
